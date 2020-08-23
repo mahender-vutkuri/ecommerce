@@ -1,0 +1,23 @@
+.orders-wrapper {
+    padding: 20px;
+
+    .header {
+        display: flex;
+        background: teal;
+        color: white;
+        border: 1px solid #333;
+        padding: 7px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 2px 5px #000;
+
+        .item {
+            margin: 5px;
+        }
+    }
+
+    .order-placed {
+        display: flex;
+        padding: 20px 0;
+    }
+}

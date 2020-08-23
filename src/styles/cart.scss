@@ -1,0 +1,35 @@
+.cart-wrapper {
+    .cart {
+        display: flex;
+        padding: 20px;
+        .cartitems {
+            display: flex;
+            flex-wrap: wrap;
+
+            .item {
+                img {
+                    height: 150px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+    .price-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: gray;
+        justify-content: center;
+        padding: 15%;
+        font-weight: bold;
+
+        .hilight {
+            background: yellow;
+            color: red;
+            padding: 3px 5px;
+            font-size: 12px;
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.mybtn {
+    border: 1px solid #eee;
+    color: white;
+    background: teal;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        color: teal;
+        background: white;
+    }
+}
+
+
+.header-wrapper {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: teal;
+        color: white;
+
+        .nav-items {
+            display: flex;
+            flex-direction: row;
+
+            .item {
+                cursor: pointer;
+                margin: 5px;
+            }
+
+        }
+    }
+}
